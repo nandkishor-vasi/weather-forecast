@@ -12,6 +12,7 @@
     background-position:top ;
     background-repeat: no-repeat;
     height: 683px;
+    position: relative;
 }
 
 .main .box {
@@ -23,14 +24,19 @@
     background-color: black;
 }
 nav{
+    max-width: 85vw;
+    justify-content: space-between;
+    margin: auto;
     display: flex;
+    align-items: center;
+    height: 100px;
 }
 nav img {
     width: 136px;
     position: relative;
     z-index: 10;
     padding-top: 51px;
-    padding-left: 41px;
+    padding-right: 0px;
 }
 
 nav p {
@@ -48,4 +54,25 @@ nav p {
     font-family: system-ui;
     font-size: 31px;
     font-weight: 700;
+    padding-right: 690px;
+}
+nav div {
+    padding-left: 0px;
+    margin-left: 104px;
+    margin-right: 68px;
+    display: flex;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    margin: 7px 2px -35px 2px;
+    border-radius: 0.25rem;
+    border: none;
+    padding: 3px 5px 3px 7px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
 }
