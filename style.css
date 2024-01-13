@@ -115,9 +115,9 @@ nav button {
 }
 
 .main input {
-    padding: 8px 110px 8px 11px;
+    padding: 10px 111px 12px 13px;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
