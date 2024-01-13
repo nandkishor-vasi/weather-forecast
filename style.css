@@ -70,9 +70,78 @@ nav button {
     border-radius: 0.25rem;
     border: none;
     padding: 3px 5px 3px 7px;
+    cursor: pointer;
 }
 
-.btn-red-sm {
-    background-color: red;
+.btn-blue-sm {
+    background-color: royalblue;
     color: white;
 }
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    text-align: center;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.hero-buttons i {
+    color: white;
+}
+
+.main input {
+    padding: 8px 110px 8px 11px;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.search-icon button{
+    height: 39px;
+    width: 39px;
+    border-top-right-radius: 258px;
+    border-top-left-radius: 258px;
+    border-bottom-left-radius: 270px;
+    border-bottom-right-radius: 270px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.search-icon img {
+    height: 33px;
+    width: 31px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 15px;
+}
+
+
+
