@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="shortcut icon" href="icons/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+    <script>
+        function login()
+        {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            if(email== "nvasi056@gmail.com" && password=="Nvkiller056")
+            {
+                window.location.assign("index.html")
+            } else {
+                alert("Invalid Information");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class="login-wrapper">
+            <form class="form" >
+                <h2>Sign In</h2>
+                <div class="input-group">
+                    <input type="text" name="loginUser" id="email" required />
+                    <label for="loginUser">Email Address</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="loginPassword" id="password" required />
+                    <label for="loginPassword">Password</label>
+                </div>    
+                <input type="button" value="Sign In" class="submit-btn" onclick="login();"/>    
+            </form>
+        </div>
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
