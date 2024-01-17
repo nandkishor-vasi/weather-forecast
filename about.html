@@ -10,16 +10,32 @@
     <div class="main">
         <div class="login-wrapper">
             <form class="form" >
-                <h2>Sign In</h2>
+                <h2>Register or Create New Account</h2>
                 <div class="input-group">
-                    <input type="text" name="loginUser" id="email" required />
+                    <input type="text" name="NameText" id="text" placeholder="Enter Full Name" required />
+                    <label for="NameText">Full Name</label>
+                </div>        
+                <div class="input-group">
+                    <input type="text" name="loginUser" id="email" placeholder="Enter Email Address" />
                     <label for="loginUser">Email Address</label>
                 </div>
                 <div class="input-group">
-                    <input type="password" name="loginPassword" id="password" required />
+                    <input type="password" name="loginPassword" id="password" placeholder="Enter Password" required />
                     <label for="loginPassword">Password</label>
                 </div>    
-                <input type="button" value="Sign In" class="submit-btn" onclick="login();"/>    
+                <div class="input-group">
+                    <input type="password" name="loginPassword" id="password" placeholder="Confirm Password" required />
+                    <label for="loginPassword">Confirm Password</label>
+                </div>
+                <div class="input-group">
+                    <input type="number" name="MobileNum" id="number" placeholder="Enter Mobile Number" required/>
+                    <label for="MobileNum">Mobile Number</label>
+                </div>
+                <input type="button" value="Register" class="submit-btn" onclick="location.href='index.html'"/>  
+                <div class="sign-in">
+                    <input type="button" value="Sign In" class="submit-btn" onclick="location.href='login.html'"/>    
+                    <label for="Sign In">Already have an account</label>
+                </div>  
             </form>
         </div>
         <div class="box"></div>
