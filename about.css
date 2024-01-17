@@ -6,7 +6,7 @@ body {
     background-color: #001428;
 }
 .main {
-    background-image: url("https://img.freepik.com/premium-photo/clouds-blue-sky-water-wallpapers-background_410516-14139.jpg");
+    background-image: url("https://img.freepik.com/premium-photo/anime-nature-abstract-art-background-image_492154-533.jpg");
     background-size: max(1200px, 112vw);
     background-position: top;
     background-repeat: no-repeat;
@@ -49,7 +49,6 @@ body {
     border-top-left-radius: 27px;
     border-bottom-left-radius: 27px;
     z-index: 1;
-
 }
 
 .form .submit-btn {
