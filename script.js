@@ -20,6 +20,7 @@ async function checkWeather(city) {
     pressure.innerHTML = `${weather_data.main.pressure}hPa `;
     visibility.innerHTML =  `${weather_data.visibility/1000}km`;
     city1.innerHTML = `${weather_data.name}`;
+    weather_img.innerHTML = `${weather_data.weather[0].icon}`;
 
 }   
 
