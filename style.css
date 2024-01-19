@@ -193,7 +193,11 @@ nav button {
     width:  85px;
     height: 85px;
 }
-.container-left .location {
+.location {
+    display: grid;
+    gap: 12px;
+}
+.container-left .inner-location {
     display: flex;
     gap: 5px;
 }

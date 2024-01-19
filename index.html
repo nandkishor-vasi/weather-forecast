@@ -34,10 +34,10 @@
             <span>Don't let the weather catch you off guard!</span>
             <span>Trust our forecasts to keep you prepared and stylish</span>
             <div class="hero-buttons">
-                <input type="text" placeholder="Search City">
+                <input class="input-box" type="text" placeholder="Search City">
                 <div class="search-icon">
                     <button>
-                        <img src="https://thumbs.dreamstime.com/b/search-icon-blue-background-your-text-vector-illustration-search-icon-blue-background-122826172.jpg">
+                        <img id="searchBtn" src="https://thumbs.dreamstime.com/b/search-icon-blue-background-your-text-vector-illustration-search-icon-blue-background-122826172.jpg">
                     </button>
                 </div>
             </div>
@@ -49,12 +49,15 @@
                 <div class="container-left">
                     <h5>Now</h5>
                     <div class="icon">
-                        <h1 class="temp">22&deg;<h4><sup>c</sup></h4></h1>
-                        <img src="icons/09d.png">
+                        <h1 class="temp">22<h6><h6>o</h4><sup>c</sup></h4></h1>
+                        <img class="weather-img" src="icons/09d.png">
                     </div>
                     <div class="location">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <h5 class="city">New York</h5>
+                        <h4 class="description">Light Rain</h4>
+                        <div class="inner-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h5 id="city">New York</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -64,21 +67,21 @@
                         <div><h5>Humidity</h5></div>
                         <div class="icon1">
                             <i class="fa-brands fa-drupal"></i>
-                            <span>60%</span>
+                            <span id="humidity">60%</span>
                         </div>
                     </div>     
                     <div class="sub-grp2">
                         <div><h5>Pressure</h5></div>
                         <div class="icon2">
                             <img src="icons/wind1.png" width="40px" height="40px">    
-                            <span>1011 hPa</span>
+                            <span id="pressure">1011 hPa</span>
                         </div>
                     </div>     
                     <div class="sub-grp3">
                         <h5>Visibility</h5>
                         <div class="icon3">
                             <i class="fa-regular fa-eye"></i>
-                            <span>0.4 km</span>
+                            <span id="visibility">0.4 km</span>
                         </div>
                     </div>      
                 </div>
@@ -90,52 +93,52 @@
                 <h5>5 Days Forecast</h5>
                 <div class="day1-card">
                     <div class="day-date">
-                        <p class="Date">22 March</p>
-                        <p class="Day">Thursday</p>
+                        <p class="Date1">22 March</p>
+                        <p class="Day1">Thursday</p>
                     </div>
                     <div class="temp-icon">
                         <h1 class="temp">22&deg;<sup>c</sup></h1>
-                        <img src="icons/09d.png">
+                        <img class="weather-img" src="icons/09d.png">
                     </div>
                 </div>
                 <div class="day2-card">
                     <div class="day-date">
-                        <p class="Date">22 March</p>
-                        <p class="Day">Thursday</p>
+                        <p class="Date2">22 March</p>
+                        <p class="Day2">Thursday</p>
                     </div>
                     <div class="temp-icon">
-                        <h1 class="temp">22&deg;<sup>c</sup></h1>
-                        <img src="icons/09d.png">
+                        <h1 class="temp2">22&deg;<sup>c</sup></h1>
+                        <img class="weather-img2" src="icons/09d.png">
                     </div>
                 </div>
                 <div class="day3-card">
                     <div class="day-date">
-                        <p class="Date">22 March</p>
-                        <p class="Day">Thursday</p>
+                        <p class="Date3">22 March</p>
+                        <p class="Day3">Thursday</p>
                     </div>
                     <div class="temp-icon">
-                        <h1 class="temp">22&deg;<sup>c</sup></h1>
-                        <img src="icons/09d.png">
+                        <h1 class="temp3">22&deg;<sup>c</sup></h1>
+                        <img class="weather-img3" src="icons/09d.png">
                     </div>
                 </div>
                 <div class="day4-card">
                     <div class="day-date">
-                        <p class="Date">22 March</p>
-                        <p class="Day">Thursday</p>
+                        <p class="Date4">22 March</p>
+                        <p class="Day4">Thursday</p>
                     </div>
                     <div class="temp-icon">
-                        <h1 class="temp">22&deg;<sup>c</sup></h1>
-                        <img src="icons/09d.png">
+                        <h1 class="temp4">22&deg;<sup>c</sup></h1>
+                        <img class="weather-img4" src="icons/09d.png">
                     </div>
                 </div>
                 <div class="day5-card">
                     <div class="day-date">
-                        <p class="Date">22 March</p>
-                        <p class="Day">Thursday</p>
+                        <p class="Date5">22 March</p>
+                        <p class="Day5">Thursday</p>
                     </div>
                     <div class="temp-icon">
-                        <h1 class="temp">22&deg;<sup>c</sup></h1>
-                        <img src="icons/09d.png">
+                        <h1 class="temp5">22&deg;<sup>c</sup></h1>
+                        <img class="weather-img5" src="icons/09d.png">
                     </div>
                 </div>
             </div>
@@ -169,6 +172,6 @@
                 <div class="footer-card-bottm"></div>
             </div>
         </footer>
-
+    ,<script src="script.js"></script>
 </body>
 </html>
