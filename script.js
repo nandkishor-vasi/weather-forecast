@@ -20,7 +20,28 @@ async function checkWeather(city) {
     pressure.innerHTML = `${weather_data.main.pressure}hPa `;
     visibility.innerHTML =  `${weather_data.visibility/1000}km`;
     city1.innerHTML = `${weather_data.name}`;
-    weather_img.innerHTML = `${weather_data.weather[0].icon}`;
+    
+    if(weather_data.weather[0].main == "Clouds")
+    {
+        weather_img.src = "icons/clouds.png";
+    }
+    else if(weather_data.weather[0].main == "Clear")
+    {
+        weather_img.src = "icons/clear.png";
+    }
+    
+    if(weather_data.weather[0].main == "Rain")
+    {
+        weather_img.src ="icons/rain.png";
+    }
+    else if(weather_data.weather[0].main == "Drizzle")
+    {
+        weather_img.src ="icons/drizzle.png";
+    }
+    else if(weather_data.weather[0].main == "Mist")
+    {
+        weather_img.src ="icons/mist.png";
+    }
 
 }   
 
