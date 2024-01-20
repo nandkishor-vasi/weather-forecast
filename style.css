@@ -288,51 +288,21 @@ nav button {
     padding: 96px 0px 30px 0px;
     font-size: 18px;
 }
-.day1-card {
+.day-card {
     padding: 33px 37px 0px 33px;
     border-top-right-radius: 27px;
     border-bottom-right-radius: 27px;
     border-top-left-radius: 27px;
     border-bottom-left-radius: 27px;
     box-shadow: 0 0 73px rgba(0, 0, 50, 116.7);
-}
-
-.day2-card {
-    padding: 33px 37px 0px 33px;
-    border-top-right-radius: 27px;
-    border-bottom-right-radius: 27px;
-    border-top-left-radius: 27px;
-    border-bottom-left-radius: 27px;
-    box-shadow: 0 0 73px rgba(0, 0, 50, 116.7);
-}
-.day3-card {
-    padding: 33px 37px 0px 33px;
-    border-top-right-radius: 27px;
-    border-bottom-right-radius: 27px;
-    border-top-left-radius: 27px;
-    border-bottom-left-radius: 27px;
-    box-shadow: 0 0 73px rgba(14, 11, 60, 49.7);
-}
-.day4-card {
-    padding: 33px 37px 0px 33px;
-    border-top-right-radius: 27px;
-    border-bottom-right-radius: 27px;
-    border-top-left-radius: 27px;
-    border-bottom-left-radius: 27px;
-    box-shadow: 0 0 73px rgba(14, 11, 70, 49.7);
-}
-.day5-card {
-    padding: 33px 37px 0px 33px;
-    border-top-right-radius: 27px;
-    border-bottom-right-radius: 27px;
-    border-top-left-radius: 27px;
-    border-bottom-left-radius: 27px;
-    box-shadow: 0 0 73px rgba(14, 11, 80, 90.7);
 }
 .day-date {
     display: flex;
     gap: 10px;
     font-size: 12px;
+}
+.temp-icon {
+    
 }
 
 
