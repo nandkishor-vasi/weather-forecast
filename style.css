@@ -384,13 +384,13 @@ nav button {
 .top-left2 {
     width: 100%;
     font-family: 'Martel Sans', sans-serif;
-    padding: 65px 105px 70px 39px;
+    padding: 53px 100px 46px 32px;
     box-shadow: 0 0 73px rgba(8, 0, 90, 13.7);
     background: linear-gradient(to right, #001f3f, #000000);
     color: #fff;
     display: grid;
     gap: 54px;
-    margin: 3px 16px 8px 118px;
+    margin: 0px 39px 0px 128px;
     border-top-right-radius: 27px;
     border-bottom-right-radius: 27px;
     border-top-left-radius: 27px;
