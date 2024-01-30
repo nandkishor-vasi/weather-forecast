@@ -6,16 +6,16 @@ body {
     background-color: #001428;
 }
 .main {
-    background-image: url(https://img.freepik.com/free-vector/sky-with-anime-fluffy-curve-shaped-clouds-cartoon-vector-illustration-sunny-summer-day-cloudy-heaven-background-with-blue-pink-gradient-color-panoramic-air-landscape-clear-weather_107791-24304.jpg);
-    background-size: max(1200px, 135vw);
+    background-image: url(https://e0.pxfuel.com/wallpapers/185/662/desktop-wallpaper-12-scenery-anime-anime-weather.jpg);
+    background-size: max(1200px, 109vw);
     background-position: top;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 869px;
     position: relative;
 }
 
 .main .box {
-    height: 800px;
+    height: 869px;
     width: 100%;
     opacity: 0.77;
     position: absolute;
@@ -68,7 +68,7 @@ body {
 .intro-text {
     font-family: sans-serif;
     display: grid;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 li{
