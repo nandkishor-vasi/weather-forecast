@@ -7,7 +7,7 @@ body {
 }
 
 .main {
-    background-image: url("icons/aboutUs-bg.jpg");
+    background-image: url(https://i.pinimg.com/originals/26/be/b0/26beb09153b8df233d82e66bef3edfbb.jpg);
     background-size: max(1200px, 100vw);
     background-position:top ;
     background-repeat: no-repeat;
