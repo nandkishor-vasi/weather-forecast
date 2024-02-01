@@ -76,3 +76,153 @@ body {
     border-bottom-left-radius: 7px;
     border: none;
 }
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nato-dark: #004990;
+    --nato-light: #118acb;
+    --white: #fff;
+    --black: #000;
+
+    --width: 183px;
+}
+
+.nato-flag {
+    inline-size: var(--width);
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    position: relative;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        var(--nato-light) 90deg,
+        var(--nato-dark) 0 180deg,
+        var(--nato-light) 0 270deg,
+        var(--nato-dark) 0 360deg
+    );
+    box-shadow: 0 0.125em 0.2em #0003, 0 0.5em 0.6235em #0002,
+        0 0.75em 1.3em #0002;
+    z-index: 1;
+}
+
+::after,
+::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nato-flag::before {
+    width: 3px;
+    height: var(--width);
+    background-image: linear-gradient(
+        to bottom,
+        #fff 0 1.75rem,
+        #0000 0 calc(100% - 1.75rem),
+        #fff calc(100% - 1.75rem) 100%
+    );
+}
+
+.nato-flag::after {
+    width: var(--width);
+    height: 3px;
+    background-image: linear-gradient(
+        to left,
+        #fff 0 1.75rem,
+        #0000 0 calc(100% - 1.75rem),
+        #fff calc(100% - 1.75rem) 100%
+    );
+}
+
+.compass {
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inline-size: calc(var(--width) * 0.75);
+    aspect-ratio: 1;
+    clip-path: polygon(
+        50% 0,
+        60% 40%,
+        100% 50%,
+        60% 60%,
+        50% 100%,
+        40% 60%,
+        0 50%,
+        40% 40%
+    );
+    background-color: var(--white);
+}
+
+.compass > * {
+    position: absolute;
+    inset: 0;
+    clip-path: polygon(50% -6px, calc(60% - 6px) calc(40% + 3px), 50% 50%);
+    transform: rotate(var(--deg));
+}
+
+.top,
+.bottom {
+    background: var(--nato-light);
+}
+
+.left,
+.right {
+    background-color: var(--nato-dark);
+}
+
+.bottom {
+    --deg: 180deg;
+}
+
+.left {
+    --deg: -90deg;
+}
+
+.right {
+    --deg: 90deg;
+}
+
+.border {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    inline-size: calc(var(--width) * 0.585);
+    aspect-ratio: 1;
+}
+
+.border::before {
+    width: 2.5rem;
+    height: calc(100% + 0.5rem);
+    background-image: conic-gradient(
+        var(--nato-light) 90deg,
+        var(--nato-dark) 0 180deg,
+        var(--nato-light) 0 270deg,
+        var(--nato-dark) 0 360deg
+    );
+}
+
+.border::after {
+    height: 2.5rem;
+    width: calc(100% + 0.5rem);
+    background-image: conic-gradient(
+        var(--nato-light) 90deg,
+        var(--nato-dark) 0 180deg,
+        var(--nato-light) 0 270deg,
+        var(--nato-dark) 0 360deg
+    );
+}
+
+.compass:hover {
+    transition: 1s;
+    rotate: 360deg;
+}
