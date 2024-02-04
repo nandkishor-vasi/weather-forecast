@@ -422,4 +422,25 @@ nav button {
 .btm-btm {
     opacity: 0.9;
 }
+.btm-top a {
+    
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 12px 15px;
+    letter-spacing: 4px;
+    overflow: hidden;
+}
+
+.btm-top a:hover{
+    background: #00348d;
+    color: white;
+    box-shadow: 0 0 5px #00348d,
+    0 0 25px #00348d,
+    0 0 20px #00348d,
+    0 0 20px #00348d;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0004);
+
+}
 
