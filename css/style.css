@@ -362,9 +362,10 @@ nav button {
     gap: 9px;
 }
 
-.top-right div {
+.top-right .share {
     display: flex;
     gap: 9px;
+    padding: 0px 0px 0px 20px;
 }
 
 .top-right .icons {
@@ -444,3 +445,41 @@ nav button {
 
 }
 
+li {
+    list-style-type: none;
+}
+
+.icons li a .fa {
+    color: #fff;
+    line-height: 40px;
+    transition: 0.5s;
+    padding-right: 14px;
+}
+
+.icons li a {
+    
+    display: block;
+    text-align: center;
+    padding-left: 20px;
+    transition: .5s;
+
+}
+.icons li a:hover {
+    transform: translate(5px, -5px);
+}
+
+.icons li:hover:nth-child(1) a  {
+    background: #3b5998;
+}
+
+.icons li:hover:nth-child(2) a {
+    background: #dd4b39;
+}
+
+.icons li:hover:nth-child(3) a {
+    background: #dd4b39;
+}
+
+.icons li:hover:nth-child(4) a {
+    background: #00aced;
+}
