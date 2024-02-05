@@ -38,7 +38,10 @@ body {
     position: relative;
     max-width: 593px;
     padding: 66px 71px 78px 33px;
-    box-shadow: 0 0 73px rgba(8, 0, 90, 13.7);
+    box-shadow: 0 0 0px #0042b4, 
+    0 0 0px #0047c1bf, 
+    0 0 0px #0047c2, 
+    0 0 150px #0049A9;
     background: linear-gradient(to right, #001f3f, #000000);
     color: #fff;
     display: grid;
@@ -98,7 +101,7 @@ li {
     color: white;
     box-shadow: 0 0 5px #004dd3,
     0 0 20px #0047c1bf,
-    0 0 50px #0053e2,
+    0 0 2px #0053e2,
     0 0 200px #0055e7;
 }
 .form .sign-in:hover input {
@@ -107,6 +110,6 @@ li {
     color: white;
     box-shadow: 0 0 2px #dd4b39,
     0 0 15px #dd4b39,
-    0 0 25px #d85341,
+    0 0 2px #d85341,
     0 0 30px #dc5745;
 }

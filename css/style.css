@@ -77,8 +77,8 @@ nav li:hover:nth-child(1) button {
     background: #004dd3;
     color: white;
     box-shadow: 0 0 5px #004dd3,
-    0 0 20px #0047c1bf,
-    0 0 50px #0053e2,
+    0 0 15px #0047c1bf,
+    0 0 2px #0053e2,
     0 0 200px #0055e7;
 }
 nav li:hover:nth-child(2) button {
@@ -87,7 +87,7 @@ nav li:hover:nth-child(2) button {
     color: white;
     box-shadow: 0 0 2px #dd4b39,
     0 0 15px #dd4b39,
-    0 0 25px #d85341,
+    0 0 2px #d85341,
     0 0 50px #dc5745;
 }
 .btn-blue-sm {
