@@ -126,9 +126,14 @@ nav li:hover:nth-child(2) button {
     align-items: center;
     justify-content: center;
     gap: 6px;
+    outline: none;
 }
 .hero-buttons i {
     color: white;
+}
+
+.main input:focus {
+    border: 1px solid #006cd8;
 }
 
 .main input {
@@ -138,6 +143,7 @@ nav li:hover:nth-child(2) button {
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
+    outline: none;
 }
 .search-icon button{
     height: 39px;
