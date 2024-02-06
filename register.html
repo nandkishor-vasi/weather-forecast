@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="css/register.css">
+    <script>
+        function register() 
+        {
+            window.location.assign("index.html")
+            alert("Website pe aaiye, dil jeetaiye!")
+        }
+    </script>
 </head>
 <body>
     <div class="main">
@@ -27,7 +34,7 @@
                     <input type="number" name="MobileNum" id="number" placeholder="Enter Mobile Number" required/>
                 </div>
                 <div class="register">
-                    <input type="button" value="Register" class="submit-btn" onclick="location.href='index.html'"/>  
+                    <input type="button" value="Register" class="submit-btn" onclick="register()"/>  
                 </div>
                 <div class="sign-in">
                     <input type="button" value="Sign In" class="submit-btn" onclick="location.href='login.html'"/>    
