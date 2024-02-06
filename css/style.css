@@ -324,6 +324,74 @@ nav li:hover:nth-child(2) button {
     font-size: 12px;
 }
 
+.content {
+    
+    width: 104%;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
+    padding: 6px 0px 0px 0px;
+    box-shadow: 0 0 73px rgba(0, 0, 09, 116.7);
+    background: linear-gradient(to right, #00172e, #000000);
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    margin: 0px 2px 4px -61px;
+    gap: 20px;
+}
+
+.content img {
+    height: 340px;
+    position: relative;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 165px;
+    padding: 0px 0px 0px 283px;
+}
+.top>div:nth-child(1) {
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.top video {
+    position: absolute;
+    right: 64px;
+    width: 330px;
+    padding: 71px 0px 0px 1px;
+}
+.top-text {
+    display: grid;
+    gap: 30px;
+}
+.top-text p  {
+    font-size: 23px;
+    font-style: italic;
+    opacity: 0.9;
+    font-family: cursive;
+    font-weight: 200;
+}
+
+.bottom {
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 165px;
+    padding: 0px 0px 0px 283px;
+}
+.bottom>div:nth-child(1) {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
 
 .footer-card {
     width: 104%;
