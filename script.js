@@ -8,8 +8,6 @@ const pressure = document.getElementById('pressure');
 const city1 = document.getElementById('city');
 const visibility = document.getElementById('visibility');
 const api_key = "4b83d897e9844fddfbd4f9a272ee294c";
-const weatherDiv = document.querySelector('.day-card');
-const currentWeatherDiv = document.querySelector(".first");
 const weatherCardsDiv = document.querySelector(".forecast-card");
 
 const createWeatherCard = (weatherItem) => {
