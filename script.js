@@ -37,7 +37,7 @@ const getWeatherDetails = (cityName, lat, lon) =>
         });
         console.log(fiveDaysForecast);
             weatherCardsDiv.innerHTML = "";
-            fiveDaysForecast.forEach(weatherItem => { 
+            uniqueForecastDays.forEach(weatherItem => { 
                 weatherCardsDiv.insertAdjacentHTML("beforeend" ,createWeatherCard(weatherItem));
                 
         }); 
@@ -49,14 +49,13 @@ const getWeatherDetails = (cityName, lat, lon) =>
 const getCityCoordinates = () => {
     const cityName = inputBox.value.trim();
     const geocoding_api_url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${api_key}`;
-    fetch(geocoding_api_url).then(response => response.json()).then(data => {
-        console.log(data);
-
+    fetch(geocoding_api_url).then(response => response.json()).then(data => {   
         const { name, lat, lon} = data[0];
         getWeatherDetails(name, lat, lon);
     });
 }
 
+//The fetch function returns a promise that resolves to the response from the server.
 async function checkWeather(city) {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`;
     const weather_data = await fetch(`${url}`).then(response => response.json());
