@@ -504,7 +504,7 @@ nav li:hover:nth-child(2) button {
     justify-content: center;
 }
 .btm-icon img {
-    height: 80px;
+    height: 61px;
 }
 .btm-btm {
     opacity: 0.9;
@@ -610,7 +610,7 @@ li {
     display: none;
   }
   .container .text{
-    font-size: 25px;
+    font-size: 23px;
     color: lightblue;
     font-weight: 500;
   }
