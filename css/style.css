@@ -584,9 +584,8 @@ li {
 }
 .top-right2 {
     font-family: 'Martel Sans', sans-serif;
-    padding: 53px 100px 45px 83px;
     box-shadow: 0 0 73px rgba(8, 0, 90, 13.7);
-    background: linear-gradient(to right, #001f3f, #000000);
+    background: linear-gradient(to left, #001f3f, #000000);
     color: #fff;
     display: grid;
     border-top-right-radius: 27px;
@@ -595,7 +594,6 @@ li {
     border-bottom-left-radius: 27px;
     align-items: center;
     justify-content: center;
-    margin: 0px 4px 0px 12px;
     position: relative;
 }
 
@@ -613,15 +611,13 @@ li {
   }
   .container .text{
     font-size: 25px;
-    color: #666;
+    color: lightblue;
     font-weight: 500;
   }
-  .container .edit{
+  .container .edit{    
     position: absolute;
-    right: 10px;
-    top: 5px;
     font-size: 16px;
-    color: #666;
+    color: lightblue;
     font-weight: 500;
     cursor: pointer;
   }
