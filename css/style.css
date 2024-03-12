@@ -164,14 +164,14 @@ nav li:hover:nth-child(2) button {
     border-top-right-radius: 15px;
 }
 
-.separation {
+/*.separation {
     width: 100%;
     height: 3px;
     background-color: #000000;
     position: relative;
     z-index: 20;
     margin: -98px;
-}
+}*/
 .container h2,p {
     color: white;
 }
@@ -188,7 +188,7 @@ nav li:hover:nth-child(2) button {
     max-width: 470px;
     padding: 40px 35px;
     box-shadow: 0 0 73px rgba(0, 0, 09, 116.7);
-    background: linear-gradient(to right, #001f3f, #000000);
+    background: linear-gradient(to right, #000c3e, #0b0b0b);
     color: #fff;
 
 }
@@ -234,9 +234,9 @@ nav li:hover:nth-child(2) button {
 
 .current-humidity {
     width: 90%;
-    padding: 40px 35px;
+    padding: 40px 35px;    
     box-shadow: 0 0 73px rgba(0, 0, 09, 116.7);
-    background: linear-gradient(to left, #001428, #000000);
+    background: linear-gradient(to left, #000c3e, #0b0b0b);
 
 }
 .sub-grp1 {
@@ -245,7 +245,7 @@ nav li:hover:nth-child(2) button {
     border-top-left-radius: 27px;
     border-bottom-left-radius: 27px;
     padding: 17px 17px 18px 21px;
-    box-shadow: 0 0 73px rgba(14, 11, 67, 90.7);
+    box-shadow: 0 0 73px rgba(0, 0, 09, 116.7);
 }
 
 .sub-grp2 {
@@ -284,19 +284,19 @@ nav li:hover:nth-child(2) button {
     font-size: 28px;
     gap: 28px;
 }
-.separation1 {
+/*.separation1 {
     width: 100%;
     height: 3px;
     background-color: #000000;
     position: relative;
     margin: 0px;
-}
+}*/
 
 .forecast-card {
     height: 229px;
     padding: 40px 35px;
     box-shadow: 0 0 73px rgba(0, 0, 09, 116.7);
-    background: linear-gradient(to right, #001428, #000000);
+    background: linear-gradient(to right, #000c3e, #0b0b0b);
     display: flex;
     font-family: 'Martel Sans', sans-serif;
     color:white;
@@ -313,7 +313,7 @@ nav li:hover:nth-child(2) button {
     border-bottom-right-radius: 27px;
     border-top-left-radius: 27px;
     border-bottom-left-radius: 27px;
-    box-shadow: 0 0 73px rgba(0, 0, 50, 116.7);
+    box-shadow: 0 0 73px rgba(0, 0, 09, 116.7);
 }
 .day-date {
     display: flex;
@@ -328,7 +328,7 @@ nav li:hover:nth-child(2) button {
     display: inline-grid;
     padding: 6px 0px 0px 0px;
     box-shadow: 0 0 73px rgba(0, 0, 09, 116.7);
-    background: linear-gradient(to right, #00172e, #000000);
+    background: linear-gradient(to right, #000c3e, #000000);
     font-family: 'Martel Sans', sans-serif;
     color: white;
     margin: 0px 2px 4px -61px;
@@ -397,7 +397,7 @@ nav li:hover:nth-child(2) button {
     height: 685px;
     padding: 66px 0px 0px 0px;
     box-shadow: 0 0 73px rgba(0, 0, 09, 116.7);
-    background: linear-gradient(to right, #001428, #000000);
+    background: linear-gradient(to right, #000c3e, #000000);
     font-family: 'Martel Sans', sans-serif;
     color: white;
     margin: 0px 2px 4px -61px;
@@ -416,7 +416,7 @@ nav li:hover:nth-child(2) button {
     max-width: 593px;
     padding: 46px 105px 70px 39px;
     box-shadow: 0 0 73px rgba(8, 0, 90, 13.7);
-    background: linear-gradient(to right, #001f3f, #000000);
+    background: linear-gradient(to right, #002951, #0b0b0b);
     color: #fff;
     display: grid;
     gap: 9px;
@@ -434,7 +434,7 @@ nav li:hover:nth-child(2) button {
     max-width: 593px;
     padding: 62px 37px 61px 37px;
     box-shadow: 0 0 73px rgba(38, 18, 130, 72.7);
-    background: linear-gradient(to left, #001f3f, #000000);
+    background: linear-gradient(to right, #002951, #0b0b0b);
     color: #fff;
     display: grid;
     gap: 9px;
@@ -473,7 +473,7 @@ nav li:hover:nth-child(2) button {
     font-family: 'Martel Sans', sans-serif;
     padding: 53px 100px 46px 32px;
     box-shadow: 0 0 73px rgba(8, 0, 90, 13.7);
-    background: linear-gradient(to right, #001f3f, #000000);
+    background: linear-gradient(to right, #002951, #0b0b0b);
     color: #fff;
     display: grid;
     gap: 54px;
@@ -585,7 +585,7 @@ li {
 .top-right2 {
     font-family: 'Martel Sans', sans-serif;
     box-shadow: 0 0 73px rgba(8, 0, 90, 13.7);
-    background: linear-gradient(to left, #001f3f, #000000);
+    background: linear-gradient(to right, #002951, #0b0b0b);
     color: #fff;
     display: grid;
     border-top-right-radius: 27px;
