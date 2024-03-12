@@ -113,3 +113,15 @@ li {
     0 0 2px #d85341,
     0 0 30px #dc5745;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(1, 0, 59, 0.5);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 40, 150);
+    border-radius: 10px;
+}
