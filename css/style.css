@@ -725,6 +725,9 @@ li {
     nav p {
         padding-right: 0px;
     }
+    nav img {
+        width: 120px;
+    }
     .hero> :nth-child(1) {
         font-size: 24px;
     }
@@ -746,6 +749,13 @@ li {
         height: auto;
         flex-wrap: wrap;
         flex-direction: row;
+        width: 600px;
+    }
+    .day-card {
+        padding: 36px 77px 26px 22px;
+    }
+    .current-humidity {
+        width: 100%;
     }
     .footer-card-top {
         display: inline-grid;
