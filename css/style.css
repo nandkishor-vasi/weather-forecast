@@ -775,5 +775,16 @@ li {
         height: 33px;
         width: 33px;
     }
+    .top-left,
+    .top-left {
+        width: auto;
+    }
+    .top-left2 {
+        padding:  47px 66px 47px 0px;
+        margin: 16px 88px 0px 99px;
+    }
+    .top-right2 {
+        display: none;
+    }
   }
   
