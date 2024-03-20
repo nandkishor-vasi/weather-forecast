@@ -22,6 +22,17 @@
                     <button  type="button" value="Register" onclick="location.href='register.html'"  class="btn">Register</button>
                     <button type="button" value="Sign In" onclick="location.href='login.html'" class="btn_sm">Sign In</button>
             </div>
+            <div class="tooltip-container">
+                <span class="tooltip">10k</span>
+                <span class="text">
+                    <i class="fa-solid fa-user"></i>
+                  Follow</span>
+            </div>
+            <div class="tooltip-container-dark">
+                <span class="text-dark">
+                    <i class="fa-solid fa-user"></i>
+                  Followed</span>
+            </div>
         </nav>
         <div class="box"></div>
         <div class="hero">
@@ -246,21 +257,7 @@
                     </div>
                 </div>
         </footer>
-        <script>
-            const btn = document.querySelector(".btnpost");
-            const post = document.querySelector(".post");
-            const widget = document.querySelector(".star-widget");
-            const editBtn = document.querySelector(".edit");
-            btn.onclick = () => {
-                widget.style.display = "none";
-                post.style.display = "block";
-                editBtn.onclick = ()=>{
-                    widget.style.display = "block";
-                    post.style.display = "none";
-                    }
-                return false;
-            }
-        </script>
+        <script src="elements.js"></script>
         <script src="script.js"></script>
 </body>
 </html>

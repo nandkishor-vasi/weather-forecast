@@ -53,12 +53,12 @@ nav p {
     font-weight: 700;
     padding-right: 766px;
 }
-nav div {
+/*nav div {
     padding-left: 0px;
     margin-left: 104px;
     margin-right: 68px;
     display: flex;
-}
+}*/
 
 nav button {
     position: relative;
@@ -406,7 +406,7 @@ nav .btn_sm:hover {
 .footer-card-top {
     display: flex;
     justify-content: space-evenly;
-    gap: 593px;
+    gap: 521px;
 }
 
 .top-left
@@ -420,7 +420,7 @@ nav .btn_sm:hover {
     color: #fff;
     display: grid;
     gap: 9px;
-    margin: 3px 16px 8px 118px;
+    margin: 3px 16px 8px 79px;
     border-top-right-radius: 27px;
     border-bottom-right-radius: 27px;
     border-top-left-radius: 27px;
@@ -787,4 +787,94 @@ li {
         display: none;
     }
   }
+
+  .btm-nav button {
+    padding: 8px 14px 8px 14px;
+  }
+  .tooltip-container {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 13px 7px 13px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid rgb(211, 211, 211);
+    z-index: 1;
+  }
+  .tooltip-container-dark {
+    margin-top: 16px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s;
+    background-color: royalblue;
+    padding: 7px 10px 7px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid royalblue;
+    z-index: 1;
+  }
+  .tooltip-container-dark:hover {
+    background-color: #0093f5;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  .text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+  }
+  .text-dark {
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color:white;
+  }
+  .tooltip {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate3d(-22px, -9px, 0px);
+    padding: 0.1em 0.5em;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    color: rgb(34, 34, 34);
+  }
+  
+  .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 0.4em;
+    width: 0.3em;
+    bottom: -0.2em;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .tooltip-container:hover .tooltip {
+    top: -100%;
+    opacity: 1;
+  }
+  
   
