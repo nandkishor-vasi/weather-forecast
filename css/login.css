@@ -10,12 +10,12 @@ body {
     background-size: max(1200px, 112vw);
     background-position: top;
     background-repeat: no-repeat;
-    height: 800px;
     position: relative;
+    height: 735px;
 }
 
 .main .box {
-    height: 800px;
+    height: 735px;
     width: 100%;
     opacity: 0.7;
     position: absolute;
@@ -31,13 +31,14 @@ body {
     margin: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .form
 {
-    width: 100%;
+    width: 33%;
     position: relative;
     max-width: 593px;
-    padding: 66px 71px 78px 33px;
+    padding: 66px 0px 78px 33px;
     box-shadow: 0 0 0px #0042b4, 
     0 0 0px #0047c1bf, 
     0 0 0px #0047c2, 
@@ -46,7 +47,7 @@ body {
     color: #fff;
     display: grid;
     gap: 19px;
-    margin: 235px 69px 99px 290px;
+    margin: 182px 0px 92px 0px;
     border-top-right-radius: 27px;
     border-bottom-right-radius: 27px;
     border-top-left-radius: 27px;
